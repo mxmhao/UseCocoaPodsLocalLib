@@ -8,3 +8,10 @@
   
   
 ### 使用pod spec create命令 可生成“.podspec”模板文件  
+  
+  
+### 删除Cocoapods，不是删除某个三方库，而是把Cocoapods从项目中删除  
+1. cd到相应文件，运行pod deintegrate
+2. 打开.xcodeproj文件，删除 “.xcworkspace”
+3. 删除Podfile、Podfile.lock文件
+
